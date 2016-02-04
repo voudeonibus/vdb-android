@@ -1,5 +1,7 @@
 # Vou de ônibus - Android
 
+> [Versão em PT_BR](/README-BR.md)
+
 This is the official repo for Vou de ônibus Android app.
 
 ## How to make this project works properly
