@@ -40,3 +40,6 @@ proguard/
 app/app.iml
 
 *.iml
+
+app/fabric.properties
+app/src/main/assets/lines.json
