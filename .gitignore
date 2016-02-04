@@ -1,6 +1,16 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
 # Built application files
 *.apk
 *.ap_
+vdb-android.iml
+
+.idea
 
 # Files for the Dalvik VM
 *.dex
@@ -15,6 +25,7 @@ gen/
 # Gradle files
 .gradle/
 build/
+/*/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -25,8 +36,7 @@ proguard/
 # Log Files
 *.log
 
-# Android Studio Navigation editor temp files
-.navigation/
+.idea/
+app/app.iml
 
-# Android Studio captures folder
-captures/
+*.iml
