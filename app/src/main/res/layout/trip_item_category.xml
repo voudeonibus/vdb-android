@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin">
+
+        <TextView
+            android:id="@+id/tripCategoryNameText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/trip_category_padding_horizontal"
+            android:paddingRight="@dimen/trip_category_padding_horizontal"
+            android:textAllCaps="true"
+            android:textSize="12sp"
+            android:background="@drawable/shape"
+            android:layout_marginTop="2sp"
+            android:textColor="@color/white" />
+
+
+
+        <ImageButton
+            android:id="@+id/tripCategoryRemoveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/ic_clear"/>
+
+    </LinearLayout>
+
+</LinearLayout>

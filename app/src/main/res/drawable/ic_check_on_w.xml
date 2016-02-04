@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:maxLevel="0">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="true" android:drawable="@drawable/ic_check_on_0" />
+            <item android:state_checked="false" android:drawable="@drawable/ic_check_off" />
+        </selector>
+    </item>
+
+    <item android:maxLevel="1">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="true" android:drawable="@drawable/ic_check_on_1" />
+            <item android:state_checked="false" android:drawable="@drawable/ic_check_off" />
+        </selector>
+    </item>
+
+    <item android:maxLevel="2">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="true" android:drawable="@drawable/ic_check_on_2" />
+            <item android:state_checked="false" android:drawable="@drawable/ic_check_off" />
+        </selector>
+    </item>
+
+    <item android:maxLevel="3">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="true" android:drawable="@drawable/ic_check_on_3" />
+            <item android:state_checked="false" android:drawable="@drawable/ic_check_off" />
+        </selector>
+    </item>
+
+    <item android:maxLevel="4">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="true" android:drawable="@drawable/ic_check_on_4" />
+            <item android:state_checked="false" android:drawable="@drawable/ic_check_off" />
+        </selector>
+    </item>
+
+    <item android:maxLevel="5">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="true" android:drawable="@drawable/ic_check_on_5" />
+            <item android:state_checked="false" android:drawable="@drawable/ic_check_off" />
+        </selector>
+    </item>
+
+    <item android:maxLevel="6">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="true" android:drawable="@drawable/ic_check_on_6" />
+            <item android:state_checked="false" android:drawable="@drawable/ic_check_off" />
+        </selector>
+    </item>
+
+
+</level-list>

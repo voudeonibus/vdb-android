@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header_main"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/sp_transition_bg1">
+
+    <RelativeLayout
+        android:id="@+id/tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/header_screen_edge_margin"
+        android:layout_marginRight="@dimen/header_screen_edge_margin"
+        android:paddingTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/tabVouAgoraButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:background="@color/transparent"
+                android:stateListAnimator="@null"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="@dimen/tab_font_size"
+                android:textColor="@color/white"
+                android:text="@string/tab_vou_agora" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonTodasLinhas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:background="@color/transparent"
+                android:stateListAnimator="@null"
+                android:textAllCaps="true"
+                android:textSize="@dimen/tab_font_size"
+                android:textColor="@color/white"
+                android:text="@string/tab_todas_linhas"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"/>
+
+        </RelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/line_tabs"
+            app:layout_widthPercent="50%"
+            android:layout_height="1.7dp"
+            android:layout_weight="0.5"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"/>
+
+        </android.support.percent.PercentRelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

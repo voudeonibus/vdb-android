@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/contentSwipe"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="0dp">
+
+        <include layout="@layout/header" />
+
+        <RelativeLayout
+            android:id="@+id/mainContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <fragment android:name="com.voudeonibusapp.android.views.components.LoadingFragment"
+        android:id="@+id/fragment_loading"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+    <fragment android:name="com.voudeonibusapp.android.views.components.ChoiceCategoryFragment"
+        android:id="@+id/fragment_choise_category"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+    <fragment android:name="com.voudeonibusapp.android.views.components.CategoryTutorialFragment"
+        android:id="@+id/fragment_category_tutorial"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+    <fragment android:name="com.voudeonibusapp.android.views.components.NotificationFragment"
+        android:id="@+id/fragment_notification"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="70dp"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

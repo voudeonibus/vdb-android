@@ -1,0 +1,90 @@
+<com.voudeonibusapp.android.views.base.ObservableScrollView
+    android:id="@+id/scroll_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true">
+
+            <RelativeLayout
+                android:id="@+id/placeholder"
+                android:background="@color/blue"
+                android:layout_width="fill_parent"
+                android:layout_height="126dp">
+
+                <LinearLayout
+                    android:id="@+id/wrapperNameCategory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp">
+
+                    <ImageView
+                        android:id="@+id/iconHeader"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:id="@+id/editNameCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:hint="Digite um nome"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif-thin"
+                        android:textSize="@dimen/category_title_font_size"
+                        android:background="@null"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#f9f9f9"
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:paddingLeft="18dp"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#727272"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="@dimen/category_search_font"
+                    android:text="@string/help_lines_search"
+                    />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/categorySearchList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/content_margin"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/edit_search_line"/>
+
+    </FrameLayout>
+
+</com.voudeonibusapp.android.views.base.ObservableScrollView>

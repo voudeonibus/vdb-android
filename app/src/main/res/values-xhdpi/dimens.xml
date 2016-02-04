@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Trip -->
+    <dimen name="trip_departure_font_size">8sp</dimen>
+
+    <!-- Header -->
+    <dimen name="header_details_line_title_width">220dp</dimen>
+
+    <!-- Card -->
+    <dimen name="margin_left_arrow_intro">30dp</dimen>
+
+    <!-- Category -->
+    <dimen name="category_time_until_margin">175dp</dimen>
+    <dimen name="category_tutorial_arrow_margin_top">-1.5dp</dimen>
+
+</resources>

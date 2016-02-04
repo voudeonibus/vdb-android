@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item name="yellow" type="color">#FFD51C</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="green" type="color">#7ED322</item>
+    <item name="blue" type="color">#259ef5</item>
+    <item name="blueText" type="color">#249df7</item>
+    <item name="grey" type="color">#696969</item>
+    <item name="transparent" type="color">#00000000</item>
+
+    <item name="sb_background" type="color">#302f2f</item>
+    <item name="sb_background_grey" type="color">#F9F9F9</item>
+
+    <item name="search_hint_font" type="color">#727272</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/yellow</item>
+        <item>@color/white</item>
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/grey</item>
+        <item>@color/sb_background</item>
+        <item>@color/transparent</item>
+    </integer-array>
+
+    <string-array name="default_color_choice_values" translatable="false">
+        <item>#33b5e5</item>
+        <item>#aa66cc</item>
+        <item>#99cc00</item>
+        <item>#ffbb33</item>
+        <item>#ff4444</item>
+        <item>#0099cc</item>
+        <item>#9933cc</item>
+        <item>#669900</item>
+        <item>#ff8800</item>
+        <item>#cc0000</item>
+        <item>#ffffff</item>
+        <item>#eeeeee</item>
+        <item>#cccccc</item>
+        <item>#888888</item>
+    </string-array>
+
+</resources>

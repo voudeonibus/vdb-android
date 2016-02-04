@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:id="@+id/wrapper"
+    android:background="@drawable/sp_transition_bg">
+
+    <TextView
+        android:id="@+id/weatherTempText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        style="@style/TextShadow"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/weather_font_size"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+    <ImageView
+        android:id="@+id/weatherThumbImage"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="30dp" />
+
+</LinearLayout>

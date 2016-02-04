@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:maxLevel="0">
+
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:width="100dp" android:height="20dp"/>
+                    <solid android:color="#7ED321"/>
+                    <corners android:radius="0dp"/>
+                </shape>
+            </item>
+            <item android:top="-40dp" android:bottom="38dp" android:right="-20dp">
+                <rotate android:fromDegrees="45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+            <item android:top="40dp" android:bottom="-50dp" android:right="-20dp">
+                <rotate android:fromDegrees="-45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item android:maxLevel="1">
+
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:width="100dp" android:height="20dp"/>
+                    <solid android:color="#FFC107"/>
+                    <corners android:radius="0dp"/>
+                </shape>
+            </item>
+            <item android:top="-40dp" android:bottom="38dp" android:right="-20dp">
+                <rotate android:fromDegrees="45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+            <item android:top="40dp" android:bottom="-50dp" android:right="-20dp">
+                <rotate android:fromDegrees="-45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item android:maxLevel="2">
+
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:width="100dp" android:height="20dp"/>
+                    <solid android:color="#F44336"/>
+                    <corners android:radius="0dp"/>
+                </shape>
+            </item>
+            <item android:top="-40dp" android:bottom="38dp" android:right="-20dp">
+                <rotate android:fromDegrees="45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+            <item android:top="40dp" android:bottom="-50dp" android:right="-20dp">
+                <rotate android:fromDegrees="-45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item android:maxLevel="3">
+
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:width="100dp" android:height="20dp"/>
+                    <solid android:color="#009688"/>
+                    <corners android:radius="0dp"/>
+                </shape>
+            </item>
+            <item android:top="-40dp" android:bottom="38dp" android:right="-20dp">
+                <rotate android:fromDegrees="45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+            <item android:top="40dp" android:bottom="-50dp" android:right="-20dp">
+                <rotate android:fromDegrees="-45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item android:maxLevel="4">
+
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:width="100dp" android:height="20dp"/>
+                    <solid android:color="#FF5722"/>
+                    <corners android:radius="0dp"/>
+                </shape>
+            </item>
+            <item android:top="-40dp" android:bottom="38dp" android:right="-20dp">
+                <rotate android:fromDegrees="45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+            <item android:top="40dp" android:bottom="-50dp" android:right="-20dp">
+                <rotate android:fromDegrees="-45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item android:maxLevel="5">
+
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:width="100dp" android:height="20dp"/>
+                    <solid android:color="#607D8B"/>
+                    <corners android:radius="0dp"/>
+                </shape>
+            </item>
+            <item android:top="-40dp" android:bottom="38dp" android:right="-20dp">
+                <rotate android:fromDegrees="45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+            <item android:top="40dp" android:bottom="-50dp" android:right="-20dp">
+                <rotate android:fromDegrees="-45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item android:maxLevel="6">
+
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:width="100dp" android:height="20dp"/>
+                    <solid android:color="#9C27B0"/>
+                    <corners android:radius="0dp"/>
+                </shape>
+            </item>
+            <item android:top="-40dp" android:bottom="38dp" android:right="-20dp">
+                <rotate android:fromDegrees="45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+            <item android:top="40dp" android:bottom="-50dp" android:right="-20dp">
+                <rotate android:fromDegrees="-45">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffff" />
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+
+    </item>
+
+</level-list>

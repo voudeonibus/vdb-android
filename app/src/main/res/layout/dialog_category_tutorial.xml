@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCffffff"
+    android:clickable="true">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:padding="11dp"
+                    android:layout_marginTop="@dimen/fragment_category_tutorial_margin_step_one"
+                    android:background="@drawable/sp_fragment_category_tutorial_border">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/fragment_category_tutorial_title"
+                        android:text="@string/fragment_category_tutorial_title_step_one"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="8.5dp"
+                        android:textSize="@dimen/fragment_category_tutorial_phrase"
+                        android:text="@string/fragment_category_tutorial_phrase_step_one"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/category_tutorial_arrow_margin_top"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:src="@drawable/ic_arrow_step_step"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:padding="11dp"
+                    android:layout_marginTop="@dimen/fragment_category_tutorial_margin_step_two"
+                    android:background="@drawable/sp_fragment_category_tutorial_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/fragment_category_tutorial_title"
+                        android:text="@string/fragment_category_tutorial_title_step_two"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="8.5dp"
+                        android:textSize="@dimen/fragment_category_tutorial_phrase"
+                        android:text="@string/fragment_category_tutorial_phrase_step_two"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/category_tutorial_arrow_margin_top"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:src="@drawable/ic_arrow_step_step"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:padding="11dp"
+                    android:layout_marginTop="@dimen/fragment_category_tutorial_margin_step_three"
+                    android:background="@drawable/sp_fragment_category_tutorial_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/fragment_category_tutorial_phrase"
+                        android:text="@string/fragment_category_tutorial_phrase_step_three"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/category_tutorial_arrow_margin_top"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:src="@drawable/ic_arrow_step_step"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnInit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:elevation="1dp"
+                android:layout_marginTop="@dimen/fragment_category_tutorial_margin_button"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/fragment_category_button"
+                android:textColor="@color/white"
+                android:text="@string/fragment_category_tutorial_button"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

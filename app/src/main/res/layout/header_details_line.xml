@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height_details_line"
+    android:id="@+id/wrapper">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:minHeight="250dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:orientation="vertical"
+        android:id="@+id/backgrondImg"></ImageView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/sp_background_black_opacity"
+        android:layout_alignParentBottom="true"></View>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/sp_background_black_opacity_top"
+        android:layout_alignParentTop="true"></View>
+
+    <RelativeLayout
+        android:id="@+id/viewHeader"
+        android:layout_width="fill_parent"
+        android:paddingTop="@dimen/header_top_default_android"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/header_screen_edge_margin"
+            android:layout_marginRight="@dimen/header_screen_edge_margin">
+
+            <include layout="@layout/header_menu_button"/>
+
+            <include layout="@layout/header_back_button"/>
+            
+            <TextView
+                android:id="@+id/headerTitleText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/header_font_h1"
+                android:text="Vou agora"/>
+
+            <include layout="@layout/header_menu_notification"/>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/header_screen_edge_margin"
+            android:layout_marginRight="@dimen/header_screen_edge_margin"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/lineNumberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_line_white"
+                android:textColor="@color/blue"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/header_search_line_number_font_size"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/lineNameText"
+                android:layout_width="@dimen/header_details_line_title_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/header_search_line_name_font_size" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"></View>
+
+            <TextView
+                android:id="@+id/linePriceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/header_search_line_price_font_size"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

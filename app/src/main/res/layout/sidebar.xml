@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/wrapperSidebar"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/sidebar_width"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:id="@+id/sidebar"
+        android:background="#313030"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/sp_shadow_sidebar"></View>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/contentSidebarMain"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="2">
+
+                    <fragment android:name="com.voudeonibusapp.android.views.components.HeaderFacebook"
+                        android:id="@+id/fragment_header_facebook"
+                        android:layout_weight="1"
+                        android:layout_width="@dimen/sidebar_width"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="30dp">
+
+                        <!--
+                        <Button
+                            android:id="@+id/sbProfileAction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="#a8a8a8"
+                            android:textAllCaps="false"
+                            android:textSize="@dimen/sidebar_buttons"
+                            android:text="@string/sidebar_profile_setting"
+                            android:paddingLeft="20dp"
+                            android:background="@drawable/sp_sidebar_button_border"/>
+                        -->
+
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="fill_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:paddingLeft="5dp"-->
+                            <!--android:orientation="vertical"-->
+                            <!--android:background="@null">-->
+
+                            <!--<fragment-->
+                                <!--android:name="com.limo.voudeonibus.views.components.ButtonCategorySidebar"-->
+                                <!--android:id="@+id/fragment_button_category_sidebar"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:layout_width="fill_parent"-->
+                                <!--android:layout_height="match_parent" />-->
+
+                        <!--</LinearLayout>-->
+
+                        <Button
+                            android:id="@+id/sbResearchAction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="#a8a8a8"
+                            android:textAllCaps="false"
+                            android:textSize="@dimen/sidebar_buttons"
+                            android:text="@string/sidebar_opnion"
+                            android:paddingLeft="5dp"
+                            android:background="@null"/>
+
+                        <Button
+                            android:id="@+id/sbPrivacyAction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="#a8a8a8"
+                            android:textAllCaps="false"
+                            android:textSize="@dimen/sidebar_buttons"
+                            android:text="@string/sidebar_privacy"
+                            android:paddingLeft="5dp"
+                            android:background="@null"/>
+
+                        <Button
+                            android:id="@+id/sbAboutAction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="#a8a8a8"
+                            android:textAllCaps="false"
+                            android:textSize="@dimen/sidebar_buttons"
+                            android:text="@string/sidebar_about"
+                            android:paddingLeft="5dp"
+                            android:background="@null"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="bottom">
+
+                    <!-- Remover esse cara quando não estiver logado -->
+                    <LinearLayout
+                        android:id="@+id/sbLogoffAction"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="#DA635D">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:src="@drawable/ic_logout_icon"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sidebar_logout_button"
+                            android:textAllCaps="true"
+                            android:text="@string/sidebar_logoff"
+                            android:background="@null"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/auxTop"
+        android:layout_width="@dimen/sidebar_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="@dimen/sidebar_width"
+            android:background="#313030"
+            android:layout_height="@dimen/header_top_default_android"
+            android:layout_alignParentTop="true">
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

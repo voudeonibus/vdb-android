@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/intervals"
+        android:progress="0"
+        android:progressDrawable="@drawable/sp_seekbar_line"
+        android:secondaryProgress="0"
+        android:thumb="@drawable/ic_white_ball"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:id="@+id/intervals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="bottom"/>
+
+</RelativeLayout>

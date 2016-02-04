@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:paddingBottom="3dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Identification  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+
+            <!-- LineFrom -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                    <!-- Icon from name -->
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/ic_list_icon"/>
+
+                    <!-- From name -->
+                    <TextView
+                        android:id="@+id/lineFromText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="14dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/card_va_line_name_font_size"/>
+
+            </LinearLayout>
+
+            <!-- Orientation -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                    <!-- Icon orientation -->
+                    <ImageView
+                        android:id="@+id/lineOrientation"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <!-- Line number  -->
+                    <TextView
+                        android:id="@+id/lineNumberText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_line_blue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/card_va_line_number_font_size"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginLeft="14dp"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="15dp"/>
+
+            </LinearLayout>
+
+            <!-- LineDestination -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                    <!-- Icon destination name -->
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/ic_list_icon"/>
+
+                    <!-- Destination name -->
+                    <TextView
+                        android:id="@+id/lineDestinationText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/card_va_line_name_font_size"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Description  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true" >
+
+            <!-- Departure Time -->
+            <TextView
+                android:id="@+id/lineDepartureTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:layout_gravity="right"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="@dimen/card_va_line_time_font_size"/>
+
+            <!-- Passage value -->
+            <TextView
+                android:id="@+id/linePassageValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="@dimen/card_va_line_price_font_size"
+                android:layout_marginRight="3dp"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Line description -->
+        <TextView
+            android:id="@+id/lineDescrition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="@dimen/card_va_line_description_font_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

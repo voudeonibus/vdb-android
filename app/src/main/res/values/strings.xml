@@ -1,0 +1,161 @@
+<resources>
+
+    <!-- Default collection -->
+    <string name="app_name">Vou de ônibus</string>
+    <string name="back">Voltar</string>
+
+    <string name="label_work">Trabalhador</string>
+    <string name="label_student">Estudante</string>
+    <string name="label_work_student">Trabalhador e Estudante</string>
+
+    <string name="toast_sync_date">Dados sincronizados</string>
+    <string name="toast_necessary_name_category">Necessário definir o nome da categoria</string>
+    <string name="toast_necessary_line_category">Necessário escolher uma linha no mínimo</string>
+    <string name="toast_necessary_time_category">Necessário definir um horário no mínimo</string>
+    <string name="toast_necessary_days_category">Necessário definir um dia da semana</string>
+
+    <string name="title_header_category">Categoria</string>
+    <string name="label_add">Adicionar</string>
+    <string name="label_remove">Remover</string>
+    <string name="label_save">Salvar</string>
+    <string name="title_header_without_name">Sem nome</string>
+    <string name="help_lines_search">Toque em uma linha para selecionar.</string>
+
+
+    <!-- Sidebar header -->
+    <string name="sidebar_text_login">Não perca as suas informações.</string>
+    <string name="sidebar_btn_login_facebook">Cadastre-se</string>
+
+    <!-- Sidebar collection -->
+    <string name="sidebar_saudacao">Olá,</string>
+    <string name="sidebar_profile_setting">Editar Perfil</string>
+    <string name="sidebar_setting_va">Editar Vou agora</string>
+    <string name="sidebar_setting">Editar</string>
+    <string name="sidebar_opnion">Mande sua opnião</string>
+    <string name="sidebar_privacy">Privacidade</string>
+    <string name="sidebar_about">Sobre nós</string>
+    <string name="sidebar_logoff">Sair da minha conta</string>
+
+    <string name="sidebar_add_category">Adicionar categoria</string>
+
+
+    <!-- Category collection  -->
+    <string name="title_activity_category">CategoryActivity</string>
+
+    <string name="ct_title">Categoria</string>
+
+    <string name="ct_setting_title_line">Uso as linhas</string>
+    <string name="ct_setting_title_time">Nos horários</string>
+    <string name="ct_setting_title_day">Nos dias</string>
+
+    <string name="ct_setting_time_start">Das</string>
+    <string name="ct_setting_time_end">Até</string>
+
+    <string name="ct_setting_day_business_days">Dias úteis</string>
+    <string name="ct_setting_day_saturdays">Sábados</string>
+    <string name="ct_setting_day_sundays_holidays">Domingos e feriados</string>
+
+    <string name="ct_setting_msg">Tudo certo aqui?</string>
+    <string name="ct_setting_btn_remove">Excluir categoria</string>
+
+    <string name="ct_setting_header_color">Escolha uma cor</string>
+
+
+    <!-- Category Activity -->
+    <string name="btn_add_category">Adicionar</string>
+    <string name="btn_add_ready">Pronto</string>
+    <string name="btn_now_add_student">Agora cadastre o estudo</string>
+    <string name="toast_category_removed">Categoria removida com sucesso.</string>
+
+    <!-- Modal -->
+    <string name="modal_title_alert">Alerta</string>
+    <string name="modal_yes">Sim</string>
+    <string name="modal_no">Não</string>
+    <string name="messagem_remove_category">Deseja realmente excluir essa categoria?</string>
+    <string name="messagem_remove_line_category">Deseja realmente remover essa viagem da categoria?</string>
+    <string name="btn_save">Salvar</string>
+
+
+    <!-- Lines Collection -->
+    <string name="tab_vou_agora">vou agora</string>
+    <string name="tab_todas_linhas">todas as linhas</string>
+
+    <!-- Days Collection -->
+    <string name="day_0">Dias úteis</string>
+    <string name="day_1">Sábado</string>
+    <string name="day_2">Domingos e feriados</string>
+
+    <!-- Placeholder -->
+    <string name="placeholder_search_todas_linhas">Busque por linhas ou por variações</string>
+    <string name="placeholder_search_passagens">Busque por variações e locais de passagem</string>
+
+
+    <!-- Facebook App ID -->
+    <string name="facebook_app_id">1608870849362461</string>
+
+    <!-- Links -->
+    <string name="link_privacy">https://voudeonibusapp.com/condicoes-de-uso/</string>
+    <string name="link_about">https://voudeonibusapp.com/#equipe</string>
+
+
+    <!-- Search -->
+    <string name="label_search_line_not_found">Nenhum resultado\r\nencontrado para a sua busca</string>
+    <string name="sublabel_search_line_not_found">Czerniewicz, Breithaupt, Schroeder como é mesmo?</string>
+
+
+    <!-- SPECIAL CARDS -->
+    <string name="card_button_close">Fechar</string>
+    <string name="card_button_answer">Responder</string>
+    <string name="card_button_rate">Avaliar App</string>
+
+    <!-- Cards -->
+    <string name="card_next_day_title">Dias da semana</string>
+
+    <!-- Card init -->
+    <string name="cd_init_phrase_one">Perder o ônibus não\r\né nada legal né?</string>
+    <string name="cd_init_phrase_two">Por isso o Vou Agora vai te ajudar a organizar\r\nos seus horários, da melhor forma possível.</string>
+    <string name="cd_init_phrase_three">São dois passos simples, quer ver?</string>
+    <string name="cd_init_phrase_four">Ou procure pela\r\nlinha desejada:</string>
+    <string name="cd_init_phrase_five">Vamos lá, você é ?</string>
+    <string name="cd_init_button">Vou Agora</string>
+
+    <!-- Card research -->
+    <string name="card_research_phrase_one">Queremos saber um pouco mais sobre você</string>
+    <string name="card_research_phrase_two">Quantas vezes por dia você vai de ônibus?</string>
+
+    <!-- Card special -->
+    <string name="card_special_phrase_one">O Vou de Ônibus está sendo útil?</string>
+    <string name="card_special_phrase_two">Gostaríamos que você comentasse sua experiência...</string>
+
+    <!-- Card supporter -->
+    <string name="card_supporter_phrase_one">Apoio:</string>
+
+    <!-- Card report bug -->
+    <string name="card_report_bug_phrase_one">Ainda estamos em teste.</string>
+    <string name="card_report_bug_phrase_two">Achou um erro?</string>
+    <string name="card_report_bug_phrase_three">Nos ajude a consertá-lo :)</string>
+
+    <!-- Card no time -->
+    <string name="card_no_time_phrase">Sem horários para apresentar \nno momento :(</string>
+
+    <!-- Dialog notification -->
+    <string name="dialog_notification_header">Suas linhas sofreram alterações</string>
+    <string name="dialog_notification_clean">Tudo certo, por aqui.</string>
+    <string name="dialog_notification_clean_button">Limpar</string>
+
+    <!-- mockup -->
+    <string name="mk_one">Preço de passagem de R$ 3,40 para R$ 3,60</string>
+    <string name="mk_two">Horários: de 8:00 para 8:30</string>
+    <string name="mk_three">Local de passagem: de 28 de agosto - Weg - Terminal para 28 de agosto - Marisol - Angeloni - Terminal</string>
+
+    <!-- Fragment Category Tutorial -->
+    <string name="fragment_category_tutorial_title_step_one">Primeiro passo:</string>
+    <string name="fragment_category_tutorial_title_step_two">Segundo passo:</string>
+
+    <string name="fragment_category_tutorial_phrase_step_one">Selecione as linhas que você usa \ntanto para ir como para voltar.</string>
+    <string name="fragment_category_tutorial_phrase_step_two">Coloque a faixa de horários que você \nusa essa linha.</string>
+    <string name="fragment_category_tutorial_phrase_step_three">E em quais dias você usa.</string>
+
+    <string name="fragment_category_tutorial_button">Ok, entendi</string>
+
+</resources>

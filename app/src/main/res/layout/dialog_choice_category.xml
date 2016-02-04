@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1f000000"
+    android:id="@+id/bgChoiceCategory"
+    android:clickable="true">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/sp_dialog_choice_category_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="15.5dp"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/dialog_choice_category_title"
+            android:text="@string/cd_init_button"/>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#1f000000"></View>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:textColor="#727272"
+            android:textSize="@dimen/dialog_choice_category_phrase"
+            android:text="@string/cd_init_phrase_five"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="13.6dp"
+            android:paddingRight="13.6dp"
+            android:paddingBottom="15.5dp">
+
+            <Button
+                android:id="@+id/btnWork"
+                android:layout_width="225.8dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dialog_choice_category_button"
+                android:text="@string/label_work"/>
+
+            <Button
+                android:id="@+id/btnStudent"
+                android:layout_width="225.8dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/green"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dialog_choice_category_button"
+                android:text="@string/label_student"
+                />
+
+            <Button
+                android:id="@+id/btnWorkStudent"
+                android:layout_width="225.8dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/blue"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dialog_choice_category_button"
+                android:text="@string/label_work_student"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@null"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+</LinearLayout>

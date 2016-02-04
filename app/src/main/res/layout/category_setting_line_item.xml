@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="@dimen/content_margin"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/lineNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingRight="15dp"
+            android:paddingLeft="3dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/search_line_number_font"
+            android:background="@drawable/ic_line_grey"/>
+
+        <TextView
+            android:id="@+id/lineNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="43dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="@dimen/category_line_name_font_size"
+            android:textColor="@color/grey"/>
+
+        <RelativeLayout
+            android:id="@+id/lineDeleteButton"
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_clear"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

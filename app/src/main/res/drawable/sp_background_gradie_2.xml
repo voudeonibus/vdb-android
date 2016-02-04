@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <shape  android:shape="rectangle" >
+            <gradient
+                android:endColor="#246BF0"
+                android:centerColor="#246BF0"
+                android:startColor="#246BF0"
+                android:centerX="-2.0"
+                android:angle="90"/>
+
+            <stroke android:width="10px" android:color="#246BF0"></stroke>
+        </shape>
+    </item>
+
+    <item android:maxLevel="1">
+        <shape  android:shape="rectangle" >
+            <gradient
+                android:endColor="#0E3383"
+                android:centerColor="#0E3383"
+                android:startColor="#0E3383"
+                android:centerX="-2.0"
+                android:angle="90"/>
+
+            <stroke android:width="10px" android:color="#0E3383"></stroke>
+        </shape>
+    </item>
+
+    <item android:maxLevel="2">
+        <shape  android:shape="rectangle" >
+            <gradient
+                android:endColor="#1F65F3"
+                android:centerColor="#1F65F3"
+                android:startColor="#1F65F3"
+                android:centerX="-2.0"
+                android:angle="90"/>
+
+            <stroke android:width="10px" android:color="#1F65F3"></stroke>
+        </shape>
+    </item>
+
+    <item android:maxLevel="3">
+        <shape  android:shape="rectangle" >
+            <gradient
+                android:endColor="#191D4B"
+                android:centerColor="#191D4B"
+                android:startColor="#191D4B"
+                android:centerX="-2.0"
+                android:angle="90"/>
+
+            <stroke android:width="10px" android:color="#191D4B"></stroke>
+        </shape>
+    </item>
+
+
+
+</level-list>

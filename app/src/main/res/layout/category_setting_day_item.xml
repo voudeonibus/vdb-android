@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/dayValueCheckbox"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:button="@drawable/sp_checkbox_background"
+        android:layout_marginLeft="18dp" />
+
+    <TextView
+        android:id="@+id/dayNameText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/category_days_font_size"/>
+
+</LinearLayout>
+

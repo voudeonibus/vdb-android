@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:paddingTop="@dimen/header_top_default_android">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/header_screen_edge_margin"
+        android:layout_marginRight="@dimen/header_screen_edge_margin">
+
+        <include layout="@layout/header_menu_button"/>
+
+        <include layout="@layout/header_back_button"/>
+
+
+        <TextView
+            android:id="@+id/headerTitleText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_font_h1"
+            android:text="Vou agora"/>
+
+        <ImageView
+            android:id="@+id/headerTitleImg"
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_vdb_logo"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <include layout="@layout/header_menu_notification" />
+
+    </RelativeLayout>
+
+</LinearLayout>

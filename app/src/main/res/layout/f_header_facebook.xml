@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wrapper"
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/gradient"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/sp_shadow_facebook"></View>
+
+
+    <!-- Layout de login -->
+    <LinearLayout
+        android:id="@+id/viewNotLogged"
+        android:layout_width="270dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sidebar_login_phrase"
+            android:text="@string/sidebar_text_login"/>
+
+        <Button
+            android:id="@+id/btnFacebookLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/sidebar_login_button"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:text="@string/sidebar_btn_login_facebook"/>
+
+    </LinearLayout>
+
+    <!-- Quando já estiver logado -->
+    <RelativeLayout
+        android:id="@+id/viewLogged"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+
+                    android:layout_width="106dp"
+                    android:layout_height="106dp"
+                    android:src="@drawable/sp_avatar"/>
+
+                <com.pkmmte.view.CircularImageView
+                    android:id="@+id/userAvatar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="3dp"
+                    app:border="true"
+                    app:border_color="#b8b5b4"
+                    app:border_width="4dp"
+
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/sidebar_saudacao"
+                    android:textSize="@dimen/sidebar_login_name"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="@dimen/sidebar_login_name"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <View android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/sp_icon_login_sidebar"/>
+
+                <TextView
+                    android:id="@+id/userStatusLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="@dimen/sidebar_login_social_midia"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

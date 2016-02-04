@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.voudeonibusapp.android.views.base.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    tools:context="com.voudeonibusapp.android.views.activity.CategoryActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:layout_height="fill_parent">
+
+        <include layout="@layout/header_category"/>
+
+        <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingLineView"
+            android:id="@+id/fragment_line"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@color/sb_background_grey">
+
+            <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingTimeView"
+                android:id="@+id/fragment_time"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"/>
+
+            <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingDayView"
+                android:id="@+id/fragment_day"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/wrapperBtnRemoveCategory"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="@dimen/content_margin"
+                android:layout_marginRight="@dimen/content_margin">
+
+                <Button
+                    android:id="@+id/btnRemoveCategory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/ct_setting_btn_remove"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:background="@null"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wrapperBtnAddCategory"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="@dimen/content_margin"
+                android:layout_marginRight="@dimen/content_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textAllCaps="true"
+                    android:textSize="18dp"
+                    android:text="@string/ct_setting_msg"
+                    />
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/btn_add_category"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:background="@color/blue"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wrapperBtnAddCategoryFirst"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="@dimen/content_margin"
+                android:layout_marginRight="@dimen/content_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textAllCaps="true"
+                    android:textSize="18dp"
+                    android:text="@string/ct_setting_msg"
+                    />
+
+                <Button
+                    android:id="@+id/btnAddFirst"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_now_add_student"
+                    android:layout_marginBottom="10dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:background="@color/blue"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.voudeonibusapp.android.views.base.ObservableScrollView>

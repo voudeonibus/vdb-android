@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="font_big">50sp</dimen>
+
+    <dimen name="content_margin">10dp</dimen>
+
+    <!-- Header  -->
+    <dimen name="toolbar_height">66dp</dimen>
+    <dimen name="toolbar_height_details_line">250dp</dimen>
+    <dimen name="toolbar_height_details_line_without_img">100dp</dimen>
+    <dimen name="header_screen_edge_margin">10dp</dimen>
+    <dimen name="header_font_h1">18sp</dimen>
+    <dimen name="header_back_font_size">14sp</dimen>
+    <dimen name="header_font_notification">10dp</dimen>
+    <dimen name="header_top_default_android">28dp</dimen>
+
+
+    <!-- Search line header -->
+    <dimen name="header_search_line_name_font_size">20sp</dimen>
+    <dimen name="header_search_line_number_font_size">16.7sp</dimen>
+    <dimen name="header_search_line_price_font_size">14sp</dimen>
+
+
+    <!-- Tab header -->
+    <dimen name="tab_height">52dp</dimen>
+    <dimen name="tab_font_size">14sp</dimen>
+
+    <!-- Weather -->
+    <dimen name="weather_font_size">37sp</dimen>
+
+
+    <!-- Cards line  -->
+    <dimen name="card_line_font_size">22dp</dimen>
+
+
+    <!-- Vou agora -->
+    <dimen name="card_va_title_font_size">11sp</dimen>
+    <dimen name="card_va_line_name_font_size">19sp</dimen>
+    <dimen name="card_va_line_number_font_size">14sp</dimen>
+    <dimen name="card_va_line_time_font_size">43.5sp</dimen>
+    <dimen name="card_va_line_price_font_size">12sp</dimen>
+    <dimen name="card_va_line_description_font_size">12sp</dimen>
+
+
+
+    <!-- Search line -->
+    <dimen name="search_line_height">48dp</dimen>
+    <!--<dimen name="search_line_name_font">21.9sp</dimen>-->
+    <dimen name="search_line_name_font">16sp</dimen>
+    <dimen name="search_line_number_font">11.8sp</dimen>
+    <dimen name="search_input_font_size">13sp</dimen>
+    <dimen name="search_day_font_size">14sp</dimen>
+
+
+    <!-- Trip -->
+    <dimen name="trip_header_title">21.9sp</dimen>
+    <dimen name="trip_line_hour_font">20dp</dimen>
+    <dimen name="trip_line_hour_right">20dp</dimen>
+    <dimen name="trip_category_padding_horizontal">5dp</dimen>
+    <dimen name="trip_button_font_size">14sp</dimen>
+    <dimen name="trip_itinerary_font_size">14sp</dimen>
+    <dimen name="trip_departure_font_size">5.7sp</dimen>
+    <dimen name="trip_direction_font_size">11sp</dimen>
+
+
+    <dimen name="seekbar_thumb_width">25dp</dimen>
+
+
+    <!-- Notification -->
+    <dimen name="notification_header">16sp</dimen>
+    <dimen name="notification_title">12sp</dimen>
+    <dimen name="notification_content">10sp</dimen>
+    <dimen name="notification_button">14sp</dimen>
+    <dimen name="notification_text_space">5dp</dimen>
+
+
+    <!-- Edit Category -->
+    <dimen name="category_title_font_size">24sp</dimen>
+    <dimen name="category_subtitle_font_size">12.5sp</dimen>
+    <dimen name="category_line_name_font_size">17sp</dimen>
+    <dimen name="category_time_divisor_font_size">13sp</dimen>
+    <dimen name="category_time_font_size">32sp</dimen>
+    <dimen name="category_days_font_size">17sp</dimen>
+    <dimen name="category_color_font_size">17sp</dimen>
+
+    <!-- Sidebar -->
+    <dimen name="sidebar_width">300dp</dimen>
+    <dimen name="sidebar_login_phrase">15sp</dimen>
+    <dimen name="sidebar_login_button">16sp</dimen>
+    <dimen name="sidebar_login_name">22.5sp</dimen>
+    <dimen name="sidebar_login_social_midia">11sp</dimen>
+    <dimen name="sidebar_buttons">18sp</dimen>
+    <dimen name="sidebar_category_button">16sp</dimen>
+    <dimen name="sidebar_logout_button">17sp</dimen>
+
+    <!-- Card Init -->
+    <dimen name="card_init_phrase_one">19sp</dimen>
+    <dimen name="card_init_phrase_two">13sp</dimen>
+    <dimen name="card_init_button">14.5sp</dimen>
+
+    <dimen name="card_search_button_phrase_one">16.5sp</dimen>
+
+    <dimen name="dialog_choice_category_title">19sp</dimen>
+    <dimen name="dialog_choice_category_phrase">13sp</dimen>
+    <dimen name="dialog_choice_category_button">14sp</dimen>
+
+    <!-- Card sem horários -->
+    <dimen name="card_no_time_phrase">20sp</dimen>
+
+    <!-- Fragment Category Tutorial -->
+    <dimen name="fragment_category_tutorial_title">17sp</dimen>
+    <dimen name="fragment_category_tutorial_phrase">15sp</dimen>
+    <dimen name="fragment_category_button">14sp</dimen>
+
+    <dimen name="fragment_category_tutorial_margin_step_one">160dp</dimen>
+    <dimen name="fragment_category_tutorial_margin_step_two">95dp</dimen>
+    <dimen name="fragment_category_tutorial_margin_step_three">70dp</dimen>
+    <dimen name="fragment_category_tutorial_margin_button">45dp</dimen>
+
+    <!-- Category Search -->
+    <dimen name="category_search_font">17dp</dimen>
+
+</resources>

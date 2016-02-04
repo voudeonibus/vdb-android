@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/listDeparture"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp">
+
+    <!-- Sub header -->
+    <TextView
+        android:id="@+id/tripItineraryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/trip_itinerary_font_size"/>
+
+    <ViewStub
+        android:id="@+id/tripDepartureDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ViewStub>
+
+    <LinearLayout
+        android:id="@+id/table_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
