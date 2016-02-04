@@ -1,5 +1,7 @@
 # Vou de ônibus - Android
 
+> [English version](/README.md)
+
 Repositório oficial do app Vou de ônibus para Android.
 
 ## Como executar este projeto corretamente
