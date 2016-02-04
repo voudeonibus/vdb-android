@@ -43,3 +43,4 @@ app/app.iml
 
 app/fabric.properties
 app/src/main/assets/lines.json
+app/src/main/AndroidManifest.xml
