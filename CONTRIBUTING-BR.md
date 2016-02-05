@@ -8,7 +8,7 @@
 
 * Se você não encontrou nenhuma issue relacionada em aberto, [crie uma nova](https://github.com/voudeonibus/vdb-android/issues/new). Certifique-se de incluir um **título e descrição clara**, o máximo de informações relevantes possível, e um **exemplo de código** demonstrando o comportamento esperado que não está ocorrendo.
 
-#### **Você criou uma ptach que corrige um bug?**
+#### **Você criou uma patch que corrige um bug?**
 
 * Abra um novo Pull Request com a patch.
 
