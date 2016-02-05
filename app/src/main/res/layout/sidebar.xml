@@ -40,11 +40,11 @@
                     android:layout_height="fill_parent"
                     android:weightSum="2">
 
-                    <fragment android:name="com.voudeonibusapp.android.views.components.HeaderFacebook"
-                        android:id="@+id/fragment_header_facebook"
-                        android:layout_weight="1"
-                        android:layout_width="@dimen/sidebar_width"
-                        android:layout_height="wrap_content" />
+                    <!--<fragment android:name="com.voudeonibusapp.android.views.components.HeaderFacebook"-->
+                        <!--android:id="@+id/fragment_header_facebook"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_width="@dimen/sidebar_width"-->
+                        <!--android:layout_height="wrap_content" />-->
 
                     <LinearLayout
                         android:layout_width="fill_parent"
