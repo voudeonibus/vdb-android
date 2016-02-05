@@ -30,14 +30,11 @@ public class HeaderMainView {
 
     private int position_tab = 1;
 
-
-
     public HeaderMainView(Activity activity) {
         this.activity = activity;
         setLayoutElements();
 
         EventBus.getDefault().register(this);
-
 
     }
 
@@ -76,11 +73,13 @@ public class HeaderMainView {
     }
 
     public void setClickVouAgora(View.OnClickListener clicklistener) {
-//        this.buttonVouAgora.setOnClickListener(clicklistener);
+        // @TODO: Refactor this
+        // this.buttonVouAgora.setOnClickListener(clicklistener);
     }
 
     public void setClickTodasLinhas(View.OnClickListener clickListener) {
-//        this.buttonTodasLinhas.setOnClickListener(clickListener);
+        // @TODO: Refactor this
+        // this.buttonTodasLinhas.setOnClickListener(clickListener);
     }
 
     private void setLayoutElements() {
