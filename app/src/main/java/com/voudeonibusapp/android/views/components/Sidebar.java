@@ -78,18 +78,11 @@ public class Sidebar {
         this.sbPrivacyAction = (Button) this.activity.findViewById(R.id.sbPrivacyAction);
         this.sbAboutAction = (Button) this.activity.findViewById(R.id.sbAboutAction);
         this.sbResearchAction = (Button) this.activity.findViewById(R.id.sbResearchAction);
-//        this.fragment_button_category_sidebar = (ButtonCategorySidebar) this.activity.getFragmentManager().findFragmentById(R.id.fragment_button_category_sidebar);
-//        this.fragment_button_category_sidebar.setTypeActivity(this.activity.eTypeActivity);
 
 
     }
 
     private void settingClickListener() {
-
-        //this.sbProfileAction.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-        //    public void onClick(View v) {}
-        //});
 
         this.sbLogoffAction.setOnClickListener(new View.OnClickListener() {
             @Override
