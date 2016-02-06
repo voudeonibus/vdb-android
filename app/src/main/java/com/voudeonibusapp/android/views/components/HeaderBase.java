@@ -63,13 +63,13 @@ public abstract class HeaderBase extends Fragment {
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     public void setNotification() {
-        int count = NotificationController.countNotification();
-        if (count > 0) {
-            headerNotificationCount.setText(String.valueOf(count));
-            headerNotificationBackground.setImageResource(R.drawable.ic_notification_with_notification_without_number);
-        } else {
-            headerNotificationBackground.setImageResource(R.drawable.ic_notification_icon);
-        }
+//        int count = NotificationController.countNotification();
+//        if (count > 0) {
+//            headerNotificationCount.setText(String.valueOf(count));
+//            headerNotificationBackground.setImageResource(R.drawable.ic_notification_with_notification_without_number);
+//        } else {
+//            headerNotificationBackground.setImageResource(R.drawable.ic_notification_icon);
+//        }
     }
 
     private void setContent() {
