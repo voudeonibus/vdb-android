@@ -4,7 +4,7 @@
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:id="@+id/wrapper"
-    android:background="@drawable/sp_transition_bg2"
+    android:background="@color/blue"
     android:layout_height="wrap_content">
 
     <fragment android:name="com.voudeonibusapp.android.views.components.HeaderNormal"
