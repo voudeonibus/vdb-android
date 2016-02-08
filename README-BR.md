@@ -18,3 +18,5 @@ Para executar este projeto você vai precisar:
 Você pode clonar este repositório agora.
 
 WIP!
+
+[MIT License](/License)
