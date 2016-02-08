@@ -16,3 +16,6 @@ To execute this project you'll need:
 * JDK 1.7 ([7u79](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html));
 
 You can clone this repo now.
+
+
+[MIT License](/LICENSE)
