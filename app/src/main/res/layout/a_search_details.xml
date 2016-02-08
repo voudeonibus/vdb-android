@@ -10,7 +10,8 @@
         android:layout_marginTop="170dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#F9F9F9">
+        android:background="#F9F9F9"
+        android:gravity="bottom">
 
         <com.voudeonibusapp.android.views.base.CustomViewPager
             android:id="@+id/pager"
