@@ -25,7 +25,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/content_margin"
                 android:layout_marginRight="@dimen/content_margin"
@@ -33,7 +33,7 @@
 
                 <!-- Heade Title -->
                 <LinearLayout
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:orientation="horizontal">
@@ -49,7 +49,7 @@
 
                 <ListView
                     android:id="@+id/tripDepartureList"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:scrollbars="none"
                     android:listSelector="@android:color/transparent"
                     android:layout_height="wrap_content"
