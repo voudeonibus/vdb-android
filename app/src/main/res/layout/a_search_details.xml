@@ -75,7 +75,7 @@
 
             <RelativeLayout
                 android:orientation="horizontal"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/header_screen_edge_margin"
                 android:layout_marginRight="@dimen/header_screen_edge_margin">
