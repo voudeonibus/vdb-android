@@ -9,14 +9,14 @@
     <LinearLayout
         android:layout_marginTop="170dp"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="#F9F9F9"
         android:gravity="bottom">
 
         <com.voudeonibusapp.android.views.base.CustomViewPager
             android:id="@+id/pager"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/header_screen_edge_margin"
             android:layout_marginRight="@dimen/header_screen_edge_margin"
             android:background="@android:color/transparent"/>
@@ -26,7 +26,7 @@
 
     <LinearLayout
         android:id="@+id/wrapperSearch"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/blue"
         android:paddingTop="15dp"
