@@ -86,28 +86,6 @@ public abstract class HeaderBase extends Fragment {
             }
         });
 
-        this.headerNotificationButton.setOnClickListener(new View.OnClickListener() {
-            @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-            @Override
-            public void onClick(View v) {
-
-                if (HeaderBase.NOTIFICATION_IS_OPEN) {
-                    HeaderBase.NOTIFICATION_IS_OPEN = false;
-                    HeaderBase.this.setNotification();
-                    EventBus.getDefault().post(MessageEvent.HIDE_NOTIFICATION);
-                } else {
-                    HeaderBase.NOTIFICATION_IS_OPEN = true;
-                    headerNotificationCount.setText("");
-                    headerNotificationBackground.setImageResource(R.drawable.ic_close);
-                    EventBus.getDefault().post(MessageEvent.SHOW_NOTIFICATION);
-                    Answers.getInstance().logCustom(new CustomEvent("Open Notification"));
-                }
-
-                Log.d("Show shw", String.valueOf(HeaderBase.NOTIFICATION_IS_OPEN));
-
-            }
-        });
-
         final View.OnClickListener clickListenerBackButton = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
