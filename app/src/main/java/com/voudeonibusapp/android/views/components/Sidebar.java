@@ -45,9 +45,6 @@ public class Sidebar {
 
         settingSwipe();
         settingClickListener();
-
-
-
     }
 
     public Sidebar(Context context, boolean executeSidebar) {
@@ -59,7 +56,6 @@ public class Sidebar {
 
         settingSwipe();
         settingClickListener();
-
     }
 
     public Sidebar(Context context, View sidebar, View mainContent) {
@@ -78,12 +74,9 @@ public class Sidebar {
         this.sbPrivacyAction = (Button) this.activity.findViewById(R.id.sbPrivacyAction);
         this.sbAboutAction = (Button) this.activity.findViewById(R.id.sbAboutAction);
         this.sbResearchAction = (Button) this.activity.findViewById(R.id.sbResearchAction);
-
-
     }
 
     private void settingClickListener() {
-
         this.sbLogoffAction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -128,12 +121,9 @@ public class Sidebar {
                 }
             }
         });
-
     }
 
     private void settingSwipe() {
-
-
         if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
             ((ScrollView) this.sidebar).setFillViewport(false);
             this.auxTop.setVisibility(View.GONE);
@@ -145,7 +135,6 @@ public class Sidebar {
             swipeLayout.setShowMode(SwipeLayout.ShowMode.LayDown);
             swipeLayout.addDrag(SwipeLayout.DragEdge.Left, wrapperSidebar);
         }
-
     }
 
     public SwipeLayout getSwipe() {
@@ -159,5 +148,4 @@ public class Sidebar {
             this.sbLogoffAction.setVisibility(View.GONE);
         }
     }
-
 }
