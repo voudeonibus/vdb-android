@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/drawerLayoutContent"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/sbResearchAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#a8a8a8"
+            android:textAllCaps="false"
+            android:textSize="@dimen/sidebar_buttons"
+            android:text="@string/sidebar_opnion"
+            android:paddingLeft="5dp"
+            android:background="@null"/>
+
+        <Button
+            android:id="@+id/sbPrivacyAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#a8a8a8"
+            android:textAllCaps="false"
+            android:textSize="@dimen/sidebar_buttons"
+            android:text="@string/sidebar_privacy"
+            android:paddingLeft="5dp"
+            android:background="@null"/>
+
+        <Button
+            android:id="@+id/sbAboutAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#a8a8a8"
+            android:textAllCaps="false"
+            android:textSize="@dimen/sidebar_buttons"
+            android:text="@string/sidebar_about"
+            android:paddingLeft="5dp"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nvView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#000" />
+
+</android.support.v4.widget.DrawerLayout>
