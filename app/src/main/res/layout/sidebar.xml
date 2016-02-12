@@ -56,37 +56,6 @@
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="30dp">
 
-                        <!--
-                        <Button
-                            android:id="@+id/sbProfileAction"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="left|center_vertical"
-                            android:fontFamily="sans-serif-light"
-                            android:textColor="#a8a8a8"
-                            android:textAllCaps="false"
-                            android:textSize="@dimen/sidebar_buttons"
-                            android:text="@string/sidebar_profile_setting"
-                            android:paddingLeft="20dp"
-                            android:background="@drawable/sp_sidebar_button_border"/>
-                        -->
-
-                        <!--<LinearLayout-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:layout_height="wrap_content"-->
-                            <!--android:paddingLeft="5dp"-->
-                            <!--android:orientation="vertical"-->
-                            <!--android:background="@null">-->
-
-                            <!--<fragment-->
-                                <!--android:name="com.limo.voudeonibus.views.components.ButtonCategorySidebar"-->
-                                <!--android:id="@+id/fragment_button_category_sidebar"-->
-                                <!--android:layout_weight="1"-->
-                                <!--android:layout_width="match_parent"-->
-                                <!--android:layout_height="match_parent" />-->
-
-                        <!--</LinearLayout>-->
-
                         <Button
                             android:id="@+id/sbResearchAction"
                             android:layout_width="match_parent"
