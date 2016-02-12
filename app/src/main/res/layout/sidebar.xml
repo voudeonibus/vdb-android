@@ -9,7 +9,7 @@
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="@dimen/sidebar_width"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:scrollbars="none"
         android:fillViewport="true"
         android:id="@+id/sidebar"
@@ -17,18 +17,18 @@
         >
 
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <View
                 android:layout_width="5dp"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
                 android:background="@drawable/sp_shadow_sidebar"></View>
 
 
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingBottom="10dp">
@@ -36,8 +36,8 @@
                 <LinearLayout
                     android:id="@+id/contentSidebarMain"
                     android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="20dp"
                     android:weightSum="2">
 
@@ -48,7 +48,7 @@
                         <!--android:layout_height="wrap_content" />-->
 
                     <LinearLayout
-                        android:layout_width="fill_parent"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:layout_marginTop="10dp"
@@ -72,7 +72,7 @@
                         -->
 
                         <!--<LinearLayout-->
-                            <!--android:layout_width="fill_parent"-->
+                            <!--android:layout_width="match_parent"-->
                             <!--android:layout_height="wrap_content"-->
                             <!--android:paddingLeft="5dp"-->
                             <!--android:orientation="vertical"-->
@@ -82,7 +82,7 @@
                                 <!--android:name="com.limo.voudeonibus.views.components.ButtonCategorySidebar"-->
                                 <!--android:id="@+id/fragment_button_category_sidebar"-->
                                 <!--android:layout_weight="1"-->
-                                <!--android:layout_width="fill_parent"-->
+                                <!--android:layout_width="match_parent"-->
                                 <!--android:layout_height="match_parent" />-->
 
                         <!--</LinearLayout>-->
@@ -131,8 +131,8 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_marginLeft="15dp"
                     android:gravity="bottom">
