@@ -62,32 +62,32 @@ public class SearchDetailItemView extends Fragment {
 
     protected void calculateSwipeRefreshFullHeight() {
         ListAdapter LvAdapter = this.adapterSearchLineDetails;
-        int listviewElementsheight = 0;
-        for (int i = 0; i < LvAdapter.getCount(); i++) {
-            View mView = LvAdapter.getView(i, null, this.listTrips);
-            mView.measure(
-                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
-                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+////        int listviewElementsheight = 0;
+////        for (int i = 0; i < LvAdapter.getCount(); i++) {
+////            View mView = LvAdapter.getView(i, null, this.listTrips);
+////            mView.measure(
+////                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+////                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+////
+////
+////            Log.d("Ops v", String.valueOf(mView.getMeasuredHeight() + mView.getBottom() + mView.getTop()));
+////
+////            listviewElementsheight += mView.getMeasuredHeight() + mView.getBottom() + mView.getTop();
+////        }
+////
+////        DisplayMetrics displaymetrics = new DisplayMetrics();
+////        getActivity().getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+////        int heightScreen = displaymetrics.heightPixels;
+////        int headersHeight = SearchDetailsActivity.HEIGHT_BAR + BaseActivity.HEIGHT_HEADER;
+////
+////        if (listviewElementsheight < (heightScreen - headersHeight)) {
+////            listviewElementsheight = heightScreen - headersHeight + 1000;
+////        }
+//
+//        Log.d("Ops c", String.valueOf(listviewElementsheight));
 
-
-            Log.d("Ops v", String.valueOf(mView.getMeasuredHeight() + mView.getBottom() + mView.getTop()));
-
-            listviewElementsheight += mView.getMeasuredHeight() + mView.getBottom() + mView.getTop();
-        }
-
-        DisplayMetrics displaymetrics = new DisplayMetrics();
-        getActivity().getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
-        int heightScreen = displaymetrics.heightPixels;
-        int headersHeight = SearchDetailsActivity.HEIGHT_BAR + BaseActivity.HEIGHT_HEADER;
-
-        if (listviewElementsheight < (heightScreen - headersHeight)) {
-            listviewElementsheight = heightScreen - headersHeight + 1000;
-        }
-
-        Log.d("Ops c", String.valueOf(listviewElementsheight));
-
-        wrapper_content_base.getLayoutParams().height = listviewElementsheight;
-        listTrips.getLayoutParams().height = listviewElementsheight;
+        wrapper_content_base.getLayoutParams().height = 50000;
+        listTrips.getLayoutParams().height = 50000;
         wrapper_content_base.requestLayout();
         listTrips.requestLayout();
 
