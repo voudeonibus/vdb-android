@@ -2,7 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:id="@+id/wrapper"
     android:background="@color/blue"
     android:layout_height="wrap_content">
@@ -10,13 +10,13 @@
     <fragment android:name="com.voudeonibusapp.android.views.components.HeaderNormal"
         android:id="@+id/fragment_header_normal"
         android:layout_weight="1"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
     <fragment android:name="com.voudeonibusapp.android.views.components.HeaderDetailsLine"
         android:id="@+id/fragment_header_details_line"
         android:layout_weight="1"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
 </LinearLayout>

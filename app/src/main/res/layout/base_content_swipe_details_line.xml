@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/contentSwipe"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <LinearLayout
@@ -32,26 +32,26 @@
     <fragment android:name="com.voudeonibusapp.android.views.components.NotificationFragment"
         android:id="@+id/fragment_notification"
         android:layout_weight="1"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_marginTop="90dp"
         android:layout_height="match_parent"/>
 
     <fragment android:name="com.voudeonibusapp.android.views.components.LoadingFragment"
         android:id="@+id/fragment_loading"
         android:layout_weight="1"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <fragment android:name="com.voudeonibusapp.android.views.components.ChoiceCategoryFragment"
         android:id="@+id/fragment_choise_category"
         android:layout_weight="1"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <fragment android:name="com.voudeonibusapp.android.views.components.CategoryTutorialFragment"
         android:id="@+id/fragment_category_tutorial"
         android:layout_weight="1"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
 </RelativeLayout>

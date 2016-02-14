@@ -20,7 +20,7 @@
             <View
                 android:id="@+id/placeholder"
                 android:background="@color/blue"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="76dp"></View>
 
 

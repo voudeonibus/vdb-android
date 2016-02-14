@@ -6,7 +6,7 @@
     android:id="@+id/wrapper">
 
     <ImageView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="250dp"
         android:minHeight="250dp"
         android:layout_alignParentBottom="true"
@@ -15,23 +15,23 @@
         android:id="@+id/backgrondImg"></ImageView>
 
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@drawable/sp_background_black_opacity"
         android:layout_alignParentBottom="true"></View>
 
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@drawable/sp_background_black_opacity_top"
         android:layout_alignParentTop="true"></View>
 
     <RelativeLayout
         android:id="@+id/viewHeader"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:paddingTop="@dimen/header_top_default_android"
         android:orientation="vertical"
-        android:layout_height="fill_parent">
+        android:layout_height="match_parent">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             
             <TextView
                 android:id="@+id/headerTitleText"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:textAllCaps="true"
@@ -60,8 +60,8 @@
         </RelativeLayout>
 
         <FrameLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1">
         </FrameLayout>
 
