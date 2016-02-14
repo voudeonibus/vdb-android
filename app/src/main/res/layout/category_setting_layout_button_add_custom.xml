@@ -2,24 +2,24 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="45dp"
     android:layout_marginTop="10dp"
     android:background="@color/sb_background_grey">
 
     <RelativeLayout
         android:orientation="vertical"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="45dp">
 
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="23dp"
             android:background="@color/white"
             ></View>
 
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_centerVertical="true"
             android:background="#10000000"

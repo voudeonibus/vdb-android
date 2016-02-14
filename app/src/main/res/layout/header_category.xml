@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/headerCategory"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
@@ -13,7 +13,7 @@
 
     <LinearLayout
         android:id="@+id/wrapperEditNameCatory"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="20dp"
@@ -55,7 +55,7 @@
 
     <RelativeLayout
         android:id="@+id/wrapperColorChoose"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:orientation="horizontal"
@@ -72,7 +72,7 @@
 
         <Button
             android:id="@+id/btnColoChoose"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
             android:gravity="left|center_vertical"

@@ -16,7 +16,7 @@
     </style>
 
     <style name="DialogNotification" parent="android:Theme.Dialog">
-        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
 
         <!-- No backgrounds, titles or window float -->

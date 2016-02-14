@@ -13,12 +13,12 @@
         <RelativeLayout
             android:id="@+id/placeholder"
             android:background="@color/blue"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <LinearLayout
                 android:id="@+id/wrapperNameCategory"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
@@ -50,8 +50,8 @@
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/listTrips"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
     </LinearLayout>
 

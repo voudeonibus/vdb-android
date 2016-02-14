@@ -3,12 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/wrapper"
     android:orientation="horizontal"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="@dimen/toolbar_height"
     android:paddingTop="@dimen/header_top_default_android">
 
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="@dimen/header_screen_edge_margin"
@@ -21,7 +21,7 @@
 
         <TextView
             android:id="@+id/headerTitleText"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:gravity="center"

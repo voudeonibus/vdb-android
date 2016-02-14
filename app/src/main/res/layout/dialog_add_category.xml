@@ -11,30 +11,30 @@
         android:layout_marginBottom="10dp"
         android:textColor="@color/blue"
         android:textSize="21.9sp"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginBottom="10dp"
         android:background="#1f000000"/>
 
     <ListView
         android:id="@+id/list_category"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     </ListView>
 
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="10dp"
         android:background="#1f000000"/>
 
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <Button

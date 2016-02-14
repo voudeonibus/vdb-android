@@ -17,20 +17,20 @@
 
         <RelativeLayout
             android:orientation="vertical"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:background="#f9f9f9"
             android:layout_height="wrap_content">
 
             <LinearLayout
                 android:id="@+id/wrapperWeather"
                 android:orientation="vertical"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <fragment android:name="com.voudeonibusapp.android.views.components.WeatherView"
                     android:id="@+id/fragment_weather"
                     android:layout_weight="1"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="200dp" />
             </LinearLayout>
 

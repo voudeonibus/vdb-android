@@ -5,7 +5,7 @@
     android:id="@+id/scroll_view"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:scrollbars="none"
     android:fillViewport="true"
     tools:context="com.voudeonibusapp.android.views.activity.CategoryActivity">
@@ -15,39 +15,39 @@
         android:layout_width="match_parent"
         android:descendantFocusability="beforeDescendants"
         android:focusableInTouchMode="true"
-        android:layout_height="fill_parent">
+        android:layout_height="match_parent">
 
         <include layout="@layout/header_category"/>
 
         <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingLineView"
             android:id="@+id/fragment_line"
             android:layout_weight="1"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:background="@color/sb_background_grey">
 
             <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingTimeView"
                 android:id="@+id/fragment_time"
                 android:layout_weight="1"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"/>
 
             <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingDayView"
                 android:id="@+id/fragment_day"
                 android:layout_weight="1"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
             <LinearLayout
                 android:id="@+id/wrapperBtnRemoveCategory"
                 android:orientation="vertical"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:layout_marginLeft="@dimen/content_margin"
@@ -55,7 +55,7 @@
 
                 <Button
                     android:id="@+id/btnRemoveCategory"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:text="@string/ct_setting_btn_remove"
@@ -68,7 +68,7 @@
             <LinearLayout
                 android:id="@+id/wrapperBtnAddCategory"
                 android:orientation="vertical"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:layout_marginLeft="@dimen/content_margin"
@@ -86,7 +86,7 @@
 
                 <Button
                     android:id="@+id/btnAdd"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:text="@string/btn_add_category"
@@ -99,7 +99,7 @@
             <LinearLayout
                 android:id="@+id/wrapperBtnAddCategoryFirst"
                 android:orientation="vertical"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:layout_marginLeft="@dimen/content_margin"
@@ -117,7 +117,7 @@
 
                 <Button
                     android:id="@+id/btnAddFirst"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/btn_now_add_student"
                     android:layout_marginBottom="10dp"
