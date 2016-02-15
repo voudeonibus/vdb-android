@@ -41,7 +41,7 @@
             android:layout_marginLeft="@dimen/header_screen_edge_margin"
             android:layout_marginRight="@dimen/header_screen_edge_margin">
 
-            <include layout="@layout/header_menu_button"/>
+            <!--<include layout="@layout/header_menu_button"/>-->
 
             <include layout="@layout/header_back_button"/>
             

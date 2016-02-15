@@ -39,7 +39,7 @@ public class HeaderDetailsLine extends HeaderBase {
     private ImageView backgrondImg;
 
     // wrapper
-    private View headerMenuButton;
+//    private View headerMenuButton;
     private View headerBackLinear;
     private View headerNotification;
     private View headerTitleText;
@@ -84,14 +84,14 @@ public class HeaderDetailsLine extends HeaderBase {
                     if (((View) event.getObject()).getLayoutParams().height < 450) {
                         AnimationSet animation = new AnimationSet(true);
                         animation.addAnimation(fadeIn);
-                        headerMenuButton.setAnimation(animation);
+//                        headerMenuButton.setAnimation(animation);
                         headerBackLinear.setAnimation(animation);
                         headerNotification.setAnimation(animation);
                         headerTitleText.setAnimation(animation);
                     } else {
                         AnimationSet animation = new AnimationSet(true);
                         animation.addAnimation(fadeOut);
-                        headerMenuButton.setAnimation(animation);
+//                        headerMenuButton.setAnimation(animation);
                         headerBackLinear.setAnimation(animation);
                         headerNotification.setAnimation(animation);
                         headerTitleText.setAnimation(animation);
@@ -120,7 +120,7 @@ public class HeaderDetailsLine extends HeaderBase {
         this.linePriceText = (TextView) this.view.findViewById(R.id.linePriceText);
         this.viewHeader = this.view.findViewById(R.id.viewHeader);
         this.backgrondImg = (ImageView) this.view.findViewById(R.id.backgrondImg);
-        this.headerMenuButton = this.view.findViewById(R.id.headerMenuButton);
+//        this.headerMenuButton = this.view.findViewById(R.id.headerMenuButton);
         this.headerBackLinear = this.view.findViewById(R.id.headerBackLinear);
         this.headerNotification = this.view.findViewById(R.id.headerNotification);
         this.headerTitleText = this.view.findViewById(R.id.headerTitleText);

@@ -24,7 +24,7 @@ public abstract class HeaderBase extends Fragment {
 
     private View wrapper;
     private LinearLayout headerBackLinear;
-    private ImageView headerMenuButton;
+//    private ImageView headerMenuButton;
     private Button headerBackButton;
     private TextView headerTitleText;
     private ImageView headerNotificationBackground;
@@ -54,7 +54,7 @@ public abstract class HeaderBase extends Fragment {
     private void setLayoutElements() {
         headerBackLinear = (LinearLayout) this.view.findViewById(R.id.headerBackLinear);
         headerTitleText = (TextView) this.view.findViewById(R.id.headerTitleText);
-        headerMenuButton = (ImageView) this.view.findViewById(R.id.headerMenuButton);
+//        headerMenuButton = (ImageView) this.view.findViewById(R.id.headerMenuButton);
         headerBackButton = (Button) this.view.findViewById(R.id.headerBackButton);
         headerNotificationButton = (Button) this.view.findViewById(R.id.headerNotificationButton);
         headerNotificationBackground = (ImageView) this.view.findViewById(R.id.headerNotificationBackground);
@@ -79,12 +79,12 @@ public abstract class HeaderBase extends Fragment {
     }
 
     private void setClickListener() {
-        this.headerMenuButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sidebar.getSwipe().toggle();
-            }
-        });
+//        this.headerMenuButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                sidebar.getSwipe().toggle();
+//            }
+//        });
 
         final View.OnClickListener clickListenerBackButton = new View.OnClickListener() {
             @Override
@@ -133,10 +133,10 @@ public abstract class HeaderBase extends Fragment {
         this.executeSidebar = executeSidebar;
 
         if (this.executeSidebar) {
-            this.headerMenuButton.setVisibility(View.VISIBLE);
+//            this.headerMenuButton.setVisibility(View.VISIBLE);
             this.headerBackLinear.setVisibility(View.GONE);
         } else {
-            this.headerMenuButton.setVisibility(View.GONE);
+//            this.headerMenuButton.setVisibility(View.GONE);
             this.headerBackLinear.setVisibility(View.VISIBLE);
         }
     }
