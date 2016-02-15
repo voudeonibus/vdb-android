@@ -129,11 +129,11 @@ public class Sidebar {
             this.auxTop.setVisibility(View.GONE);
         }
 
-        swipeLayout.getDragEdgeMap().clear();
+//        swipeLayout.getDragEdgeMap().clear();
 
         if (executeSidebar) {
             swipeLayout.setShowMode(SwipeLayout.ShowMode.LayDown);
-            swipeLayout.addDrag(SwipeLayout.DragEdge.Left, wrapperSidebar);
+//            swipeLayout.addDrag(SwipeLayout.DragEdge.Left, wrapperSidebar);
         }
     }
 
