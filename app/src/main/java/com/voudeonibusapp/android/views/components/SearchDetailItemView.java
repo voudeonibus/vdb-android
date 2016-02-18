@@ -1,6 +1,8 @@
 package com.voudeonibusapp.android.views.components;
 
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -11,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.voudeonibusapp.android.R;
 import com.voudeonibusapp.android.controller.TripController;
@@ -21,10 +24,13 @@ import com.voudeonibusapp.android.views.activity.SearchDetailsActivity;
 import com.voudeonibusapp.android.views.adapter.list.AdapterSearchLine;
 import com.voudeonibusapp.android.views.adapter.list.AdapterSearchLineDetails;
 
+import java.text.DecimalFormat;
+
 import io.realm.RealmResults;
 
 public class SearchDetailItemView extends Fragment {
 
+    private View view;
     private ViewGroup rootView;
     private ListView listTrips;
     private int category_day;
@@ -35,6 +41,12 @@ public class SearchDetailItemView extends Fragment {
     private BaseActivity baseActivity;
     private View wrapper_content_base;
 
+    private TextView lineNumberText;
+    private TextView lineNameText;
+    private TextView linePriceText;
+
+    View fHeader;
+    View aSearchDetails;
 
     public  SearchDetailItemView(int category_day, Line line, AdapterSearchLine.TypeDetails typeDetails, BaseActivity baseActivity, View wrapper_content_base) {
         this.category_day = category_day;
@@ -48,16 +60,33 @@ public class SearchDetailItemView extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        rootView = (ViewGroup) inflater.inflate(R.layout.f_search_detail_item, container, false);
-        this.adapterSearchLineDetails = new AdapterSearchLineDetails(this.rootView.getContext(), trips, typeDetails, category_day);
+//        rootView = (ViewGroup) inflater.inflate(R.layout.f_search_detail_item, container, false);
+        view = inflater.inflate(R.layout.details_lines_header, container, false);
+        fHeader = view.findViewById(R.id.fSearchDetailItem);
+        aSearchDetails = view.findViewById(R.id.aSearchDetails);
+        this.adapterSearchLineDetails = new AdapterSearchLineDetails(fHeader.getContext(), trips, typeDetails, category_day);
         setLayoutElements();
         setListItems();
         Log.d("Ops 2", String.valueOf(trips.size()) + " " + String.valueOf(category_day));
-        return rootView;
+        return view;
     }
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+    public void setLine(Line line) {
+        this.line = line;
+
+        this.lineNumberText.setText(this.line.getRoute_short_name());
+        this.lineNameText.setText(this.line.getRoute_long_name());
+//        this.linePriceText.setText("R$ " + new DecimalFormat("0.00").format(this.line.getPrice()));
+
+    }
+
+
     private void setLayoutElements() {
-        this.listTrips = (ListView) this.rootView.findViewById(R.id.listTrips);
+        this.listTrips = (ListView) fHeader.findViewById(R.id.listTrips);
+        this.lineNumberText = (TextView) aSearchDetails.findViewById(R.id.lineNumberText);
+        this.lineNameText = (TextView) aSearchDetails.findViewById(R.id.lineNameText);
+//        this.linePriceText = (TextView) this.rootView.findViewById(R.id.linePriceText);
     }
 
     protected void calculateSwipeRefreshFullHeight() {

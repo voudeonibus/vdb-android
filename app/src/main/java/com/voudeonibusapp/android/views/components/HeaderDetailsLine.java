@@ -119,7 +119,7 @@ public class HeaderDetailsLine extends HeaderBase {
         this.lineNameText = (TextView) this.view.findViewById(R.id.lineNameText);
         this.linePriceText = (TextView) this.view.findViewById(R.id.linePriceText);
         this.viewHeader = this.view.findViewById(R.id.viewHeader);
-        this.backgrondImg = (ImageView) this.view.findViewById(R.id.backgrondImg);
+//        this.backgrondImg = (ImageView) this.view.findViewById(R.id.backgrondImg);
 //        this.headerMenuButton = this.view.findViewById(R.id.headerMenuButton);
         this.headerBackLinear = this.view.findViewById(R.id.headerBackLinear);
         this.headerNotification = this.view.findViewById(R.id.headerNotification);
@@ -134,14 +134,14 @@ public class HeaderDetailsLine extends HeaderBase {
         this.lineNameText.setText(this.line.getRoute_long_name());
         this.linePriceText.setText("R$ " + new DecimalFormat("0.00").format(this.line.getPrice()));
 
-        try {
-
-            Drawable d = Drawable.createFromStream(this.getActivity().getAssets().open("images/" + this.line.getRoute_short_name() +  ".jpg"), null);
-            this.backgrondImg.setImageDrawable(d);
-
-        } catch (IOException e) {
-            this.wrapper.setBackgroundColor(this.getActivity().getResources().getColor(R.color.blue));
-        }
+//        try {
+//
+//            Drawable d = Drawable.createFromStream(this.getActivity().getAssets().open("images/" + this.line.getRoute_short_name() +  ".jpg"), null);
+//            this.backgrondImg.setImageDrawable(d);
+//
+//        } catch (IOException e) {
+//            this.wrapper.setBackgroundColor(this.getActivity().getResources().getColor(R.color.blue));
+//        }
 
     }
 

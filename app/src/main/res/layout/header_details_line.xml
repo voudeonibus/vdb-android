@@ -5,14 +5,14 @@
     android:layout_height="@dimen/toolbar_height_details_line"
     android:id="@+id/wrapper">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:minHeight="250dp"
-        android:layout_alignParentBottom="true"
-        android:scaleType="centerCrop"
-        android:orientation="vertical"
-        android:id="@+id/backgrondImg"></ImageView>
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="250dp"-->
+        <!--android:minHeight="250dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:orientation="vertical"-->
+        <!--android:id="@+id/backgrondImg"></ImageView>-->
 
     <View
         android:layout_width="match_parent"
