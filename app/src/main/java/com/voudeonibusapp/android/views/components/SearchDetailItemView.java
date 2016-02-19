@@ -1,6 +1,7 @@
 package com.voudeonibusapp.android.views.components;
 
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Bundle;
@@ -28,6 +29,7 @@ import java.text.DecimalFormat;
 
 import io.realm.RealmResults;
 
+@SuppressLint("ValidFragment")
 public class SearchDetailItemView extends Fragment {
 
     private View view;
@@ -48,7 +50,8 @@ public class SearchDetailItemView extends Fragment {
     View fHeader;
     View aSearchDetails;
 
-    public  SearchDetailItemView(int category_day, Line line, AdapterSearchLine.TypeDetails typeDetails, BaseActivity baseActivity, View wrapper_content_base) {
+    @SuppressLint("ValidFragment")
+    public SearchDetailItemView(int category_day, Line line, AdapterSearchLine.TypeDetails typeDetails, BaseActivity baseActivity, View wrapper_content_base) {
         this.category_day = category_day;
         this.trips = TripController.getOnlyDay(this.category_day, line.getTrips());
         this.line = line;
@@ -68,6 +71,7 @@ public class SearchDetailItemView extends Fragment {
         setLayoutElements();
         setListItems();
         Log.d("Ops 2", String.valueOf(trips.size()) + " " + String.valueOf(category_day));
+        this.setLine(this.line);
         return view;
     }
 
@@ -75,6 +79,8 @@ public class SearchDetailItemView extends Fragment {
     public void setLine(Line line) {
         this.line = line;
 
+        Log.d("OkWTF", this.line.getRoute_long_name());
+        Log.d("OkWTF", this.lineNumberText.toString());
         this.lineNumberText.setText(this.line.getRoute_short_name());
         this.lineNameText.setText(this.line.getRoute_long_name());
 //        this.linePriceText.setText("R$ " + new DecimalFormat("0.00").format(this.line.getPrice()));
