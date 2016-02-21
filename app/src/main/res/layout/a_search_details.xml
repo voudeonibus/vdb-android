@@ -68,12 +68,12 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"></View>
 
-            <!--<TextView-->
-                <!--android:id="@+id/linePriceText"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textColor="@color/white"-->
-                <!--android:textSize="@dimen/header_search_line_price_font_size"/>-->
+            <TextView
+                android:id="@+id/linePriceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/header_search_line_price_font_size"/>
 
         </LinearLayout>
 

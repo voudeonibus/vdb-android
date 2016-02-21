@@ -83,16 +83,16 @@ public class SearchDetailItemView extends Fragment {
         Log.d("OkWTF", this.lineNumberText.toString());
         this.lineNumberText.setText(this.line.getRoute_short_name());
         this.lineNameText.setText(this.line.getRoute_long_name());
-//        this.linePriceText.setText("R$ " + new DecimalFormat("0.00").format(this.line.getPrice()));
+        this.linePriceText.setText("R$ " + new DecimalFormat("0.00").format(this.line.getPrice()));
 
     }
 
 
     private void setLayoutElements() {
         this.listTrips = (ListView) fHeader.findViewById(R.id.listTrips);
-        this.lineNumberText = (TextView) aSearchDetails.findViewById(R.id.lineNumberText);
-        this.lineNameText = (TextView) aSearchDetails.findViewById(R.id.lineNameText);
-//        this.linePriceText = (TextView) this.rootView.findViewById(R.id.linePriceText);
+        this.lineNumberText = (TextView) getActivity().findViewById(R.id.lineNumberText);
+        this.lineNameText = (TextView) getActivity().findViewById(R.id.lineNameText);
+        this.linePriceText = (TextView) getActivity().findViewById(R.id.linePriceText);
     }
 
     protected void calculateSwipeRefreshFullHeight() {
