@@ -63,16 +63,16 @@ public class SearchDetailItemView extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-//        rootView = (ViewGroup) inflater.inflate(R.layout.f_search_detail_item, container, false);
-        view = inflater.inflate(R.layout.details_lines_header, container, false);
-        fHeader = view.findViewById(R.id.fSearchDetailItem);
-        aSearchDetails = view.findViewById(R.id.aSearchDetails);
-        this.adapterSearchLineDetails = new AdapterSearchLineDetails(fHeader.getContext(), trips, typeDetails, category_day);
+        rootView = (ViewGroup) inflater.inflate(R.layout.f_search_detail_item, container, false);
+//        view = inflater.inflate(R.layout.details_lines_header, container, false);
+//        fHeader = view.findViewById(R.id.fSearchDetailItem);
+//        aSearchDetails = view.findViewById(R.id.aSearchDetails);
+        this.adapterSearchLineDetails = new AdapterSearchLineDetails(rootView.getContext(), trips, typeDetails, category_day);
         setLayoutElements();
         setListItems();
         Log.d("Ops 2", String.valueOf(trips.size()) + " " + String.valueOf(category_day));
         this.setLine(this.line);
-        return view;
+        return rootView;
     }
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
@@ -87,7 +87,7 @@ public class SearchDetailItemView extends Fragment {
 
 
     private void setLayoutElements() {
-        this.listTrips = (ListView) fHeader.findViewById(R.id.listTrips);
+        this.listTrips = (ListView) rootView.findViewById(R.id.listTrips);
         this.lineNumberText = (TextView) getActivity().findViewById(R.id.lineNumberText);
         this.lineNameText = (TextView) getActivity().findViewById(R.id.lineNameText);
         this.linePriceText = (TextView) getActivity().findViewById(R.id.linePriceText);
