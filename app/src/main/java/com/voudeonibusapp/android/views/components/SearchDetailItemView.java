@@ -79,8 +79,6 @@ public class SearchDetailItemView extends Fragment {
     public void setLine(Line line) {
         this.line = line;
 
-        Log.d("OkWTF", this.line.getRoute_long_name());
-        Log.d("OkWTF", this.lineNumberText.toString());
         this.lineNumberText.setText(this.line.getRoute_short_name());
         this.lineNameText.setText(this.line.getRoute_long_name());
         this.linePriceText.setText("R$ " + new DecimalFormat("0.00").format(this.line.getPrice()));
