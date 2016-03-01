@@ -1,4 +1,4 @@
-<com.voudeonibusapp.android.views.base.ObservableScrollView
+<com.voudeonibus.views.base.ObservableScrollView
     android:id="@+id/scroll_view"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -87,4 +87,4 @@
 
     </FrameLayout>
 
-</com.voudeonibusapp.android.views.base.ObservableScrollView>
+</com.voudeonibus.views.base.ObservableScrollView>

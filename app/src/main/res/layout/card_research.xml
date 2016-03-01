@@ -56,12 +56,12 @@
                     android:paddingTop="20dp"
                     android:paddingBottom="10dp">
 
-                    <com.voudeonibusapp.android.views.utils.SeekbarWithIntervals
+                    <com.voudeonibus.views.utils.SeekbarWithIntervals
                         android:id="@+id/seekbarWithIntervals"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true">
-                    </com.voudeonibusapp.android.views.utils.SeekbarWithIntervals>
+                    </com.voudeonibus.views.utils.SeekbarWithIntervals>
                 </RelativeLayout>
 
             </LinearLayout>

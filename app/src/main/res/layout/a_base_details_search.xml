@@ -13,7 +13,7 @@
 
         <include layout="@layout/sidebar"/>
 
-        <com.voudeonibusapp.android.views.base.ObservableScrollView
+        <com.voudeonibus.views.base.ObservableScrollView
             android:id="@+id/observableDetails"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -44,7 +44,7 @@
 
                 <include layout="@layout/header" />
             </FrameLayout>
-        </com.voudeonibusapp.android.views.base.ObservableScrollView>
+        </com.voudeonibus.views.base.ObservableScrollView>
 
     </com.daimajia.swipe.SwipeLayout>
 

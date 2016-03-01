@@ -14,7 +14,7 @@
         android:background="#F9F9F9"
         android:gravity="bottom">
 
-        <com.voudeonibusapp.android.views.base.CustomViewPager
+        <com.voudeonibus.views.base.CustomViewPager
             android:id="@+id/pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

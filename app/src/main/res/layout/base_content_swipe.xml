@@ -31,25 +31,25 @@ android:layout_height="match_parent">
 
     </LinearLayout>
 
-    <fragment android:name="com.voudeonibusapp.android.views.components.LoadingFragment"
+    <fragment android:name="com.voudeonibus.views.components.LoadingFragment"
         android:id="@+id/fragment_loading"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <fragment android:name="com.voudeonibusapp.android.views.components.ChoiceCategoryFragment"
+    <fragment android:name="com.voudeonibus.views.components.ChoiceCategoryFragment"
         android:id="@+id/fragment_choise_category"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <fragment android:name="com.voudeonibusapp.android.views.components.CategoryTutorialFragment"
+    <fragment android:name="com.voudeonibus.views.components.CategoryTutorialFragment"
         android:id="@+id/fragment_category_tutorial"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <fragment android:name="com.voudeonibusapp.android.views.components.NotificationFragment"
+    <fragment android:name="com.voudeonibus.views.components.NotificationFragment"
         android:id="@+id/fragment_notification"
         android:layout_weight="1"
         android:layout_width="match_parent"

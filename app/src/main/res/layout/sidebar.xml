@@ -41,7 +41,7 @@
                     android:layout_marginTop="20dp"
                     android:weightSum="2">
 
-                    <!--<fragment android:name="com.voudeonibusapp.android.views.components.HeaderFacebook"-->
+                    <!--<fragment android:name="voudeonibusdroid.views.components.HeaderFacebook"-->
                         <!--android:id="@+id/fragment_header_facebook"-->
                         <!--android:layout_weight="1"-->
                         <!--android:layout_width="@dimen/sidebar_width"-->

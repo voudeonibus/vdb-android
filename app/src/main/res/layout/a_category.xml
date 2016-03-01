@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.voudeonibusapp.android.views.base.ObservableScrollView
+<com.voudeonibus.views.base.ObservableScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scroll_view"
@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:scrollbars="none"
     android:fillViewport="true"
-    tools:context="com.voudeonibusapp.android.views.activity.CategoryActivity">
+    tools:context="com.voudeonibus.views.activity.CategoryActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -19,7 +19,7 @@
 
         <include layout="@layout/header_category"/>
 
-        <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingLineView"
+        <fragment android:name="com.voudeonibus.views.components.CategorySettingLineView"
             android:id="@+id/fragment_line"
             android:layout_weight="1"
             android:layout_width="match_parent"
@@ -31,14 +31,14 @@
             android:orientation="vertical"
             android:background="@color/sb_background_grey">
 
-            <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingTimeView"
+            <fragment android:name="com.voudeonibus.views.components.CategorySettingTimeView"
                 android:id="@+id/fragment_time"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"/>
 
-            <fragment android:name="com.voudeonibusapp.android.views.components.CategorySettingDayView"
+            <fragment android:name="com.voudeonibus.views.components.CategorySettingDayView"
                 android:id="@+id/fragment_day"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
@@ -131,4 +131,4 @@
 
     </LinearLayout>
 
-</com.voudeonibusapp.android.views.base.ObservableScrollView>
+</com.voudeonibus.views.base.ObservableScrollView>

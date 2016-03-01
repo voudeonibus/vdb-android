@@ -1,4 +1,4 @@
-package com.voudeonibusapp.android;
+package com.voudeonibus.android;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
