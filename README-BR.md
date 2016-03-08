@@ -2,7 +2,7 @@
 
 > [English version](/README.md)
 
-Repositório oficial do app Vou de ônibus para Android.
+Repositório oficial do app [Vou de ônibus para Android](https://play.google.com/store/apps/details?id=com.voudeonibus).
 
 ## Como executar este projeto corretamente
 
