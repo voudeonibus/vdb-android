@@ -2,7 +2,7 @@
 
 > [Versão em PT_BR](/README-BR.md)
 
-This is the official repo for Vou de ônibus Android app.
+This is the official repo for [Vou de ônibus Android app](https://play.google.com/store/apps/details?id=com.voudeonibus).
 
 ## How to make this project works properly
 
