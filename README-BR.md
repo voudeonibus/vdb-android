@@ -17,6 +17,8 @@ Para executar este projeto você vai precisar:
 
 Você pode clonar este repositório agora.
 
-WIP!
+- Duplique `app/fabric.properties.sample` para `app/fabric.properties`, adicione sua `apiSecret` key
+- Duplique `app/src/main/AndroidManifest.xml.sample` para `app/src/main/AndroidManifest.xml`, adicione sua própria `Fabric API` key
+
 
 [MIT License](/License)
